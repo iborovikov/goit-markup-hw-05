@@ -174,8 +174,7 @@ body {
   display: flex;
   align-items: center;
 }
-.menu {
-}
+
 .menu .item {
   position: relative;
   padding-top: 32px;
@@ -311,66 +310,37 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.benefits-list .item {
-}
-.benefits-list .antena-icon:before {
+.benefits-list .item::before {
   content: '';
   display: block;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  background-image: url(../images/antenna.svg);
   background-repeat: no-repeat;
-
   background-position: center;
   background-color: var(--lite-bg);
+}
+.benefits-list .antena-icon:before {
+  background-image: url(../images/antenna.svg);
 }
 
 .benefits-list .clock-icon::before {
-  content: '';
-  display: block;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
   background-image: url(../images/clock.svg);
-  background-repeat: no-repeat;
-
-  background-position: center;
-  background-color: var(--lite-bg);
 }
 
 .benefits-list .diagram-icon::before {
-  content: '';
-  display: block;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
   background-image: url(../images/diagram.svg);
-  background-repeat: no-repeat;
-
-  background-position: center;
-  background-color: var(--lite-bg);
 }
 
 .benefits-list .astronaut-icon::before {
-  content: '';
-  display: block;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
   background-image: url(../images/astronaut.svg);
-  background-repeat: no-repeat;
-
-  background-position: center;
-  background-color: var(--lite-bg);
 }
 
 .benefits-list .item:not(:last-child) {
   margin-right: 30px;
 }
 .benefits-title {
-  padding-bottom: 10px;
-
+  margin-bottom: 10px;
   line-height: 1.143;
   text-transform: uppercase;
   text-align: left;
