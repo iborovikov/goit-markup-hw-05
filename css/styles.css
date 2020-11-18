@@ -207,12 +207,14 @@ body {
   margin-right: 10px;
   fill: currentColor;
 }
-
 .phone-icon {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
+}
+.link.active-page {
+  color: var(--accent-cl);
 }
 .active-page::after {
   content: '';
@@ -262,7 +264,6 @@ body {
   padding-right: 32px;
   padding-left: 32px;
 }
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -284,6 +285,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+
 .close-btn {
   position: absolute;
   top: 8px;
@@ -322,19 +324,15 @@ body {
 .benefits-list .antena-icon:before {
   background-image: url(../images/antenna.svg);
 }
-
 .benefits-list .clock-icon::before {
   background-image: url(../images/clock.svg);
 }
-
 .benefits-list .diagram-icon::before {
   background-image: url(../images/diagram.svg);
 }
-
 .benefits-list .astronaut-icon::before {
   background-image: url(../images/astronaut.svg);
 }
-
 .benefits-list .item:not(:last-child) {
   margin-right: 30px;
 }
@@ -355,12 +353,10 @@ body {
 .duty-title {
   padding-bottom: 50px;
 }
-
 .duty-list .item {
   position: relative;
   z-index: 10;
 }
-
 .lable {
   position: absolute;
   bottom: 0;
@@ -380,6 +376,7 @@ body {
   text-transform: uppercase;
   color: var(--white);
 }
+
 /* Наша команда */
 .team-section {
   padding-top: 94px;
@@ -415,7 +412,6 @@ body {
   line-height: 1.186;
   text-align: center;
 }
-
 .social-list {
   display: flex;
   justify-content: center;
@@ -429,7 +425,6 @@ body {
 .social-icon:focus {
   fill: var(--white);
 }
-
 .social-link {
   display: flex;
   justify-content: center;
